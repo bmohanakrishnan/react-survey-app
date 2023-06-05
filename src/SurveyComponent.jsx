@@ -11,7 +11,8 @@ export function call_api(item) {
 return fetch('https://hnhmywkgva.execute-api.us-east-1.amazonaws.com/sync-to-dynamo', {
     method: 'POST',
     headers: {
-    'Content-Type': 'application/json'
+    'Content-Type': 'application/json',
+    'Access-Control-Allow-Origin': '*'
     },
     body: JSON.stringify({ item })
 })

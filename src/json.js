@@ -1,8 +1,8 @@
 export const json = {
     "title": "Survey Questions",
     "logo": "./Dvya_logo.png",
-    "logoWidth": "170px",
-    "logoHeight": "80px",
+    "logoWidth": "200px",
+    "logoHeight": "100px",
     "logoFit": "cover",
     "logoPosition": "right",
     "pages": [
